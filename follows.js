@@ -3,9 +3,9 @@
 	/*
 	EXAMPLE CONFIGURATION
 
-		var defaultKey	= 'fje329iun52ngtuijo2f4jeun432A', // Unique master Xively API key to be used as a default
-		defaultFeeds	= [61916,12425,94322], // Comma separated array of Xively Feed ID numbers
-		applicationName	= 'My Company\'s Application', // Replaces Xively logo in the header
+		var defaultKey	= '03c9fc8e99633ea6f14cac0c31530db87124a186f9ec1da6c2f68751b9df2248', // Unique master Xively API key to be used as a default
+		defaultFeeds	= [1451477615, 601911870], // Comma separated array of Xively Feed ID numbers
+		applicationName	= 'My Company\'s Sensors', // Replaces Xively logo in the header
 		dataDuration	= '90days', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
 		dataInterval	= 10800, // Default interval for data to be displayed (in seconds)
 		dataColor		= '0A1922', // CSS HEX value of color to represent data (omit leading #)
