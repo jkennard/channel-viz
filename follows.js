@@ -15,10 +15,10 @@
 	var defaultKey		= 'dpbUdcd89tX0rTihjeihePeSqpzzbrIT6XEAJd6lMkMBFq6K', // Unique master Xively API key to be used as a default
 		defaultFeeds	= [1451477615, 601911870], // Comma separated array of Xively Feed ID numbers
 		applicationName	= 'Sensor Visualization', // Replaces Xively logo in the header
-		dataDuration	= '6hours', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
-		dataInterval	= 10800, // Default interval for data to be displayed (in seconds)
-		dataColor		= '0A1922', // CSS HEX value of color to represent data (omit leading #)
-		hideForm		= 0; // To hide input form use value of 1, otherwise set to 0
+		dataDuration	= '90days', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
+		dataInterval	= 360, // Default interval for data to be displayed (in seconds)
+		dataColor		= '0fc0fc', // CSS HEX value of color to represent data (omit leading #)
+		hideForm		= 1; // To hide input form use value of 1, otherwise set to 0
 
 // Function Declarations
 
