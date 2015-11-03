@@ -13,7 +13,7 @@
 	*/
 
 	var defaultKey		= 'dpbUdcd89tX0rTihjeihePeSqpzzbrIT6XEAJd6lMkMBFq6K', // Unique master Xively API key to be used as a default
-		defaultFeeds	= [1451477615, 601911870], // Comma separated array of Xively Feed ID numbers
+		defaultFeeds	= [1451477615], // Comma separated array of Xively Feed ID numbers
 		applicationName	= 'KPF Sensor Visualization', // Replaces Xively logo in the header
 		dataDuration	= '6hours', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
 		dataInterval	= 300, // Default interval for data to be displayed (in seconds)
@@ -88,7 +88,7 @@
 					 if(duration == '1week') diff = 604800000;
 					 if(duration == '1month') diff = 2628000000;
 					 if(duration == '90days') diff = 7884000000;
-					then.setTime(now.getTime() - diff);
+					then.setTime(now.getTime() - 5);
 					if(updated.getTime() > then.getTime()) {
 						if(datastreamIds && datastreamIds != '' && datastreamIds.indexOf(datastream.id) >= 0) {
 							xively.datastream.history(feedId, datastream.id, {duration: duration, interval: interval, limit: 1000}, function(datastreamData) {
