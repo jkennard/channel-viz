@@ -82,7 +82,7 @@
 					var then = new Date();
 					var updated = new Date;
 					updated = updated.parseISO(datastream.at);
-					var diff = -5;
+					var diff = null;
 					if(duration == '6hours') diff = 21600000;
 					 if(duration == '1day') diff = 86400000;
 					 if(duration == '1week') diff = 604800000;
